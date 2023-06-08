@@ -1,0 +1,6 @@
+sudo yum install -y amazon-linux-extras
+sudo amazon-linux-extras | grep php
+sudo amazon-linux-extras enable php8.1
+sudo yum clean metadata
+sudo yum install php-cli php-pdo php-fpm php-json php-mysqlnd -y
+php -v
