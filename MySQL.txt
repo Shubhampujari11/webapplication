@@ -1,0 +1,10 @@
+#connect to mysql
+
+create database project;
+
+create table records
+(
+ID INT PRIMARY_KEY,
+FIRST_NAME VARCHAR(20) NOT NULL,
+LAST_NAME VARCHAR(20) NOT NULL
+);
